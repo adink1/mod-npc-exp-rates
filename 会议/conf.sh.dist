@@ -5,9 +5,9 @@
 #
 
 DB_CHARACTERS_CUSTOM_PATHS+=(
-	$MOD_NPC_EXP_RATESROOT"/sql/chars/"
+	$MOD_NPC_EXP_RATES_ROOT"/sql/chars/"
 )
 
 DB_WORLD_CUSTOM_PATHS+=(
-	$MOD_NPC_EXP_RATESROOT"/sql/world/"
+	$MOD_NPC_EXP_RATES_ROOT/sql/world/"
 )
