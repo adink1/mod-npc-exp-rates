@@ -1,0 +1,31 @@
+[worldserver]
+
+# Enable specific ranks
+Experience.Enable = 1
+Experience.Announce = 0
+Defaultexp = 1
+
+# Full level reward
+Experience.item11 = 37711
+Experience.mete11 = 500
+Experience.item12 = 49177
+Experience.mete12 = 1
+Experience.item13 = 0
+Experience.mete13 = 0
+Experience.item14 = 0
+Experience.mete14 = 0
+Experience.item51 = 37711
+Experience.mete51 = 500
+Experience.item52 = 0
+Experience.mete52 = 0
+Experience.item53 = 0
+Experience.mete53 = 0
+Experience.item101 = 37711
+Experience.mete101 = 300
+Experience.item102 = 0
+Experience.mete102 = 0
+Experience.item151 = 37711
+Experience.mete151 = 200
+Experience.spell1 = 34090
+Experience.spell2 = 34091
+###
