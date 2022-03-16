@@ -265,7 +265,7 @@ public:
             }
             else if (action == Experience_GOSSIP_CHECK)
             {
-                if (PlayerXpRate* data = player->CustomData.Get<PlayerXpRate>("Experience_xp"))
+                if (PlayerXpRate* data = player->CustomData.GetDefault<PlayerXpRate>("Experience_xp"))
                 {
                     uint32 rate = data->XPRate;
                     player->GetSession()->SendNotification("你当前升级经验的倍率为：%u 倍！", rate);
