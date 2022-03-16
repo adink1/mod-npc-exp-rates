@@ -183,6 +183,7 @@ public:
                 {
                     player->GetSession()->SendNotification("抱歉，升级经验只能在 10 级之前可以更改。");
                     CloseGossipMenuFor(player);
+                    return false;
                 }
                 else
                 {
@@ -193,6 +194,7 @@ public:
                     me->CustomData.GetDefault<PlayerXpRate>("Experience_xp")->XPRate = rate;
                     player->GetSession()->SendNotification("恭喜，你的升级经验已成功修改为 %u 倍！", rate);
                     CloseGossipMenuFor(player);
+                    return true;
                 }
             }
             else if (action == Experience_GOSSIP_CHOOSE + 2)
@@ -201,6 +203,7 @@ public:
                 {
                     player->GetSession()->SendNotification("抱歉，升级经验只能在 10 级之前可以更改。");
                     CloseGossipMenuFor(player);
+                    return false;
                 }
                 else
                 {
@@ -211,6 +214,7 @@ public:
                     me->CustomData.GetDefault<PlayerXpRate>("Experience_xp")->XPRate = rate;
                     player->GetSession()->SendNotification("恭喜，你的升级经验已成功修改为 %u 倍！", rate);
                     CloseGossipMenuFor(player);
+                    return true;
                 }
             }
             else if (action == Experience_GOSSIP_CHOOSE + 3)
@@ -219,6 +223,7 @@ public:
                 {
                     player->GetSession()->SendNotification("抱歉，升级经验只能在 10 级之前可以更改。");
                     CloseGossipMenuFor(player);
+                    return false;
                 }
                 else
                 {
@@ -229,6 +234,7 @@ public:
                     me->CustomData.GetDefault<PlayerXpRate>("Experience_xp")->XPRate = rate;
                     player->GetSession()->SendNotification("恭喜，你的升级经验已成功修改为 %u 倍！", rate);
                     CloseGossipMenuFor(player);
+                    return true;
                 }
             }
             else if (action == Experience_GOSSIP_CHOOSE + 4)
@@ -237,6 +243,7 @@ public:
                 {
                     player->GetSession()->SendNotification("抱歉，升级经验只能在 10 级之前可以更改。");
                     CloseGossipMenuFor(player);
+                    return false;
                 }
                 else
                 {
@@ -247,6 +254,7 @@ public:
                     me->CustomData.GetDefault<PlayerXpRate>("Experience_xp")->XPRate = rate;
                     player->GetSession()->SendNotification("恭喜，你的升级经验已成功修改为 %u 倍！", rate);
                     CloseGossipMenuFor(player);
+                    return true;
                 }
             }
             else if (action == Experience_GOSSIP_AWARD)
